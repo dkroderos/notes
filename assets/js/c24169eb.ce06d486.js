@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknotes=self.webpackChunknotes||[]).push([[755],{1648:e=>{e.exports=JSON.parse('{"categoryGeneratedIndex":{"title":"Linux","description":"Notes for git.","slug":"/category/linux","permalink":"/notes/category/linux","sidebar":"default","navigation":{"next":{"title":"Debian","permalink":"/notes/linux/debian"}}}}')}}]);
