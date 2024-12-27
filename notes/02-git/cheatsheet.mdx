@@ -1,0 +1,47 @@
+---
+title: Cheatsheet
+sidebar_position: 3 
+---
+
+### Remove files on staging area
+
+```
+git restore --staged .
+```
+
+### Pull submodules
+
+```
+git submodule update --init --recursive
+```
+
+### Update submodules to the latest version
+
+```
+git submodule update --remote
+```
+
+### Rename the current branch
+
+```
+git branch -m new-branch-name
+```
+```
+git push origin --delete old-branch-name
+```
+
+```
+git push -u origin new-branch-name
+```
+
+### Clean the repository by removing ignored and untracked files
+
+```
+git clean -fdx
+```
+
+### Check what will be cleaned in the repository
+
+```
+git clean -fdx --dry-run
+```

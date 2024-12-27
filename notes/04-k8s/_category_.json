@@ -1,0 +1,10 @@
+{
+  "label": "Kubernetes",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "Notes for Kubernetes."
+  }
+}
