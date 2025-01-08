@@ -30,11 +30,20 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 ### Edit .zshrc
 
 ```
+export ZSH="$HOME/.oh-my-zsh"
+
+ZSH_THEME="robbyrussell"
+
 plugins=(
         git
         zsh-syntax-highlighting
         zsh-autosuggestions
 )
+
+alias rp="cd ~/Repositories"
+alias dkr="cd ~/Repositories/dkroderos"
+
+source $ZSH/oh-my-zsh.sh
 ```
 
 ### Change default shell to zsh (log back in to see changes)
